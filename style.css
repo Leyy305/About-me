@@ -1,0 +1,40 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    background-color: #ffebcd;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    font-size: 3em;
+    color: #ff69b4;
+}
+
+/* Description text styling */
+.description {
+    font-size: 1.5em;
+    color: #ff1493;
+    margin-top: 10px;
+}
+
+/* Hover effect on text */
+.description:hover {
+    color: #ff4500;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
